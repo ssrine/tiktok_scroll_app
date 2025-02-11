@@ -68,7 +68,7 @@ class CommentsPage extends StatelessWidget {
                 suffixIcon: IconButton(
                   icon: Icon(Icons.send, color: Colors.white),
                   onPressed: () {
-                    // Add logic to send the comment
+                    // 
                   },
                 ),
               ),

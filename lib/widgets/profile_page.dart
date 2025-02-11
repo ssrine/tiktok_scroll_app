@@ -120,7 +120,6 @@ class _ProfilePageState extends State<ProfilePage> {
                     style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.white),
                   ),
                   SizedBox(height: 10),
-                  // List of Reels (Post/Video items)
                   ListView.builder(
                     shrinkWrap: true,
                     physics: NeverScrollableScrollPhysics(),
@@ -132,7 +131,7 @@ class _ProfilePageState extends State<ProfilePage> {
                         title: Text('Video Reel #${index + 1}', style: TextStyle(color: Colors.white)),
                         subtitle: Text('Reel description goes here...', style: TextStyle(color: Colors.white70)),
                         onTap: () {
-                          // Navigate to video details
+                          // 
                         },
                       );
                     },
@@ -143,11 +142,10 @@ class _ProfilePageState extends State<ProfilePage> {
                     style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.white),
                   ),
                   SizedBox(height: 10),
-                  // List of Posts
                   ListView.builder(
                     shrinkWrap: true,
                     physics: NeverScrollableScrollPhysics(),
-                    itemCount: 5, // You can change this number based on the number of posts
+                    itemCount: 5, 
                     itemBuilder: (context, index) {
                       return ListTile(
                         contentPadding: EdgeInsets.symmetric(vertical: 10),
@@ -155,7 +153,7 @@ class _ProfilePageState extends State<ProfilePage> {
                         title: Text('Post #${index + 1}', style: TextStyle(color: Colors.white)),
                         subtitle: Text('Post content here...', style: TextStyle(color: Colors.white70)),
                         onTap: () {
-                          // Navigate to post details
+                          // 
                         },
                       );
                     },

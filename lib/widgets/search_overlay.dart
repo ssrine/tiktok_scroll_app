@@ -39,27 +39,27 @@ class SearchOverlay extends StatelessWidget {
               title: Text('1337 amazing school 🏫', style: TextStyle(color: Colors.white)),
               subtitle: Text('Enroll now and unlock your secret hacker skills 🤖', style: TextStyle(color: Colors.white70)),
               onTap: () {
-                // Perform search action or navigation here
+                // 
               },
             ),
             ListTile(
               title: Text('1337 future is loading 🔄', style: TextStyle(color: Colors.white)),
               subtitle: Text('Your future as a coding legend is just a click away 👾', style: TextStyle(color: Colors.white70)),
               onTap: () {
-                // Perform search action or navigation here
+                // 
               },
             ),
             ListTile(
               title: Text('Nisrine El Harkani - The Code Whisperer 💻✨', style: TextStyle(color: Colors.white)),
               subtitle: Text('Master of Python, C++, and creating epic apps 📱', style: TextStyle(color: Colors.white70)),
               onTap: () {
-                // Perform search action or navigation here
+                // 
               },
             ),
             ListTile(
               title: Text('Nisrine’s secret recipe: 1 part code, 2 parts caffeine ☕💻', style: TextStyle(color: Colors.white)),
               onTap: () {
-                // Perform search action or navigation here
+                // 
               },
             ),
           ],

@@ -30,11 +30,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  visibility_detector: ^0.4.0+2  # Detect visible videos
+  visibility_detector: ^0.4.0+2  
   provider: ^6.1.2
-  lottie: ^2.7.0  # (Optional) For like animations
+  lottie: ^2.7.0  
 
-  font_awesome_flutter: ^10.6.0  # Check pub.dev for the latest version
+  font_awesome_flutter: ^10.6.0  
 
   video_player: ^2.5.0
   shared_preferences: ^2.0.15
@@ -62,6 +62,8 @@ flutter:
     - assets/videos/1337reel1.mp4
     - assets/videos/1337reel2.mp4
     - assets/videos/1337reel3.mp4
+    - assets/videos/1337reel4.mp4
+    - assets/videos/1337reel5.mp4
     - assets/images/profile_image.png
 
 
